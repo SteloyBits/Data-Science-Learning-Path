@@ -1,11 +1,12 @@
 <h2>Module 5: Object-Oriented Programming (OOP) in Python</h2>
     <p><strong>Introduction:</strong> This module introduces Object-Oriented Programming. Learn the fundamentals of classes, objects, inheritance, and more through clear examples.</p>
     
-    <h3>1. Introduction to OOP Concepts</h3>
+    <h3> 1. Introduction to OOP Concepts</h3>
     <ul>
       <li><strong>What is OOP?</strong>
         <p>Definition and benefits of object-oriented design.</p>
-        <pre><code># OOP is a way to structure code using objects.
+        <pre>
+        <code># OOP is a way to structure code using objects.
 </code></pre>
       </li>
       <li><strong>Classes and Objects Explained</strong>
@@ -27,7 +28,8 @@
 </code></pre>
       </li>
       <li><strong>Creating an Instance (Object) of a Class</strong>
-        <pre><code>class Animal:
+        <pre>
+        <code>class Animal:
     pass
 
 dog = Animal()
