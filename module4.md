@@ -1,12 +1,10 @@
-h2>Module 4: Utilizing Generative AI Coding Assistants</h2>
+<h2>Module 4: Utilizing Generative AI Coding Assistants</h2>
     <p><strong>Introduction:</strong> In Module 4, learn how to use generative AI coding assistants (such as ChatGPT or GitHub Copilot) to help write code faster, troubleshoot, and learn programming concepts. Use these tools responsibly to enhance your learning.</p>
     
-    <h3>1. Introduction to AI Coding Assistants</h3>
+<h3>1. Introduction to AI Coding Assistants</h3>
     <ul>
       <li><strong>What is a Generative AI Coding Assistant?</strong>
         <p>Overview of how these tools work.</p>
-        <pre><code># The AI assistant provides code suggestions.
-</code></pre>
       </li>
       <li><strong>Popular Tools (ChatGPT, GitHub Copilot)</strong>
         <p>Brief introduction to available tools.</p>
@@ -19,7 +17,7 @@ h2>Module 4: Utilizing Generative AI Coding Assistants</h2>
       </li>
     </ul>
     
-    <h3>2. Setting Up Access to an AI Assistant</h3>
+<h3>2. Setting Up Access to an AI Assistant</h3>
     <ul>
       <li><strong>Registering for an AI Assistant Service</strong>
         <p>Step-by-step guide to sign up.</p>
@@ -35,7 +33,7 @@ h2>Module 4: Utilizing Generative AI Coding Assistants</h2>
       </li>
     </ul>
     
-    <h3>3. Basic Commands and Interactions</h3>
+<h3>3. Basic Commands and Interactions</h3>
     <ul>
       <li><strong>How to Ask for Code Suggestions</strong>
         <p>Examples of prompts you can type.</p>
@@ -53,7 +51,7 @@ print("Hello, AI!")
       </li>
     </ul>
     
-    <h3>4. Debugging with AI Assistants</h3>
+<h3>4. Debugging with AI Assistants</h3>
     <ul>
       <li><strong>Inputting Code Errors for Explanation</strong>
         <p>How to paste an error message for suggestions.</p>
@@ -72,7 +70,7 @@ print(x)  # AI suggests checking for variable misnaming
       </li>
     </ul>
     
-    <h3>5. Learning New Concepts via AI Assistance</h3>
+<h3>5. Learning New Concepts via AI Assistance</h3>
     <ul>
       <li><strong>Asking for Code Examples</strong>
         <p>Example: “Show me a for-loop in Python.”</p>
@@ -88,7 +86,7 @@ print(x)  # AI suggests checking for variable misnaming
       </li>
     </ul>
     
-    <h3>6. Writing Documentation and Comments with AI</h3>
+<h3>6. Writing Documentation and Comments with AI</h3>
     <ul>
       <li><strong>Generating Docstrings for Functions</strong>
         <pre><code>def add(a, b):
@@ -109,7 +107,7 @@ print(x)  # AI suggests checking for variable misnaming
       </li>
     </ul>
     
-    <h3>7. Best Practices for AI-Assisted Coding</h3>
+<h3>7. Best Practices for AI-Assisted Coding</h3>
     <ul>
       <li><strong>Validating AI-Generated Code</strong>
         <p>Always test and understand suggestions.</p>
@@ -125,7 +123,7 @@ print(x)  # AI suggests checking for variable misnaming
       </li>
     </ul>
     
-    <h3>8. Practical Exercises Using AI Assistants</h3>
+<h3>8. Practical Exercises Using AI Assistants</h3>
     <ul>
       <li><strong>Task: Generate a Function to Compute Factorials</strong>
         <pre><code>def factorial(n):
@@ -147,7 +145,7 @@ print(factorial(5))
       </li>
     </ul>
     
-    <h3>9. Integrating AI in Daily Coding Practices</h3>
+<h3>9. Integrating AI in Daily Coding Practices</h3>
     <ul>
       <li><strong>Creating a Habit of Consulting AI</strong>
         <p>When and how to use the assistant during coding.</p>
@@ -163,7 +161,7 @@ print(factorial(5))
       </li>
     </ul>
     
-    <h3>10. Review, Q&amp;A, and Hands-On Project</h3>
+<h3>10. Review, Q&amp;A, and Hands-On Project</h3>
     <ul>
       <li><strong>Mini-Project: Build a Simple Script Using AI Assistance</strong>
         <pre><code>def process_input():
@@ -182,4 +180,4 @@ print(process_input())
       <li><strong>Feedback on AI Integration in Coding</strong>
         <p>Discuss improvements and suggestions.</p>
       </li>
-    </ul>S
+    </ul>
