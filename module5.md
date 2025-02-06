@@ -1,13 +1,10 @@
 <h2>Module 5: Object-Oriented Programming (OOP) in Python</h2>
     <p><strong>Introduction:</strong> This module introduces Object-Oriented Programming. Learn the fundamentals of classes, objects, inheritance, and more through clear examples.</p>
     
-    <h3> 1. Introduction to OOP Concepts</h3>
+<h3> 1. Introduction to OOP Concepts</h3>
     <ul>
       <li><strong>What is OOP?</strong>
         <p>Definition and benefits of object-oriented design.</p>
-        <pre>
-        <code># OOP is a way to structure code using objects.
-</code></pre>
       </li>
       <li><strong>Classes and Objects Explained</strong>
         <p>Conceptual explanation with examples.</p>
@@ -20,7 +17,7 @@
       </li>
     </ul>
     
-    <h3>2. Defining Classes and Creating Objects</h3>
+<h3>2. Defining Classes and Creating Objects</h3>
     <ul>
       <li><strong>Basic Class Definition</strong>
         <pre><code>class Animal:
@@ -28,8 +25,7 @@
 </code></pre>
       </li>
       <li><strong>Creating an Instance (Object) of a Class</strong>
-        <pre>
-        <code>class Animal:
+        <pre><code>class Animal:
     pass
 
 dog = Animal()
@@ -55,7 +51,7 @@ print(cat.name)
       </li>
     </ul>
     
-    <h3>3. Methods and Their Uses</h3>
+<h3>3. Methods and Their Uses</h3>
     <ul>
       <li><strong>Defining Instance Methods</strong>
         <pre><code>class Animal:
@@ -88,7 +84,7 @@ print(Animal.general_info(), Animal.kingdom())
       </li>
     </ul>
     
-    <h3>4. Inheritance and Subclasses</h3>
+<h3>4. Inheritance and Subclasses</h3>
     <ul>
       <li><strong>Concept of Inheritance</strong>
         <p>How subclasses inherit attributes and methods from parent classes.</p>
@@ -119,7 +115,7 @@ print(cat.speak())
       </li>
     </ul>
     
-    <h3>5. Encapsulation and Data Hiding</h3>
+<h3>5. Encapsulation and Data Hiding</h3>
     <ul>
       <li><strong>Private vs Public Attributes</strong>
         <pre><code>class BankAccount:
@@ -163,7 +159,7 @@ print(account.balance)
       </li>
     </ul>
     
-    <h3>6. Polymorphism and Method Overriding</h3>
+<h3>6. Polymorphism and Method Overriding</h3>
     <ul>
       <li><strong>What is Polymorphism?</strong>
         <p>Allowing methods to behave differently on different classes.</p>
@@ -186,7 +182,7 @@ for animal in animals:
       </li>
     </ul>
     
-    <h3>7. Composition: Building Complex Objects</h3>
+<h3>7. Composition: Building Complex Objects</h3>
     <ul>
       <li><strong>Difference Between Inheritance and Composition</strong>
         <p>Explanation with examples.</p>
@@ -213,7 +209,7 @@ print(my_car.start())
       </li>
     </ul>
     
-    <h3>8. Special Methods (Magic Methods)</h3>
+<h3>8. Special Methods (Magic Methods)</h3>
     <ul>
       <li><strong>The <code>__str__</code> and <code>__repr__</code> Methods</strong>
         <pre><code>class Person:
@@ -247,19 +243,19 @@ print(v1 + v2)
       </li>
     </ul>
     
-    <h3>9. Designing and Organizing Large Programs with OOP</h3>
+<h3>9. Designing and Organizing Large Programs with OOP</h3>
     <ul>
       <li><strong>Structuring Your Project into Classes and Modules</strong>
         <p>Strategies for maintainable code organization.</p>
       </li>
       <li><strong>Using Packages to Group Related Classes</strong>
-        <pre><code><!-- Example Directory Structure:
-my_project/
+          <h5>Example Directory Structure:</h5>
+        <pre><code>my_project/
 ├── animals/
 │   ├── __init__.py
 │   ├── dog.py
 │   └── cat.py
-└── main.py -->
+└── main.py
 </code></pre>
       </li>
       <li><strong>Documenting Your Classes</strong>
@@ -270,7 +266,7 @@ my_project/
       </li>
     </ul>
     
-    <h3>10. Review and Hands-On OOP Project</h3>
+<h3>10. Review and Hands-On OOP Project</h3>
     <ul>
       <li><strong>Mini-Project: Build a Simple Animal Simulator</strong>
         <pre><code>class Animal:
