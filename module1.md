@@ -1,16 +1,11 @@
 <h2>Module 1: Getting Started with Computers &amp; Python</h2>
     <p><strong>Introduction:</strong> In Module 1, we introduce basic computer concepts, how to install Python, and run your first Python program. This module is ideal even if you have only just begun using a computer.</p>
     
-    <h3>1. Understanding Computers and Operating Systems</h3>
+<h3>1. Understanding Computers and Operating Systems</h3>
     <ul>
       <li><strong>What is a Computer?</strong>
         <p>Explanation of hardware and software concepts.</p>
-        <pre><code># No code for this concept; this is an explanation.
-</code></pre>
-      </li>
-      <li><strong>Introduction to Operating Systems (Windows, macOS, Linux)</strong>
-        <p>Overview of popular OS features.</p>
-      </li>
+        </li>
       <li><strong>Using the Command Line/Terminal</strong>
         <p>Basic commands to navigate your computer.</p>
         <pre><code># List files in a directory
@@ -24,27 +19,27 @@ cd Documents
       </li>
     </ul>
     
-    <h3>2. Installing Python and Required Tools</h3>
+<h3>2. Installing Python and Required Tools</h3>
     <ul>
-      <li><strong>Downloading Python from the Official Website</strong>
+      <li><strong>Downloading Python from the Official Website [Goto: https://www.python.org/downloads] </strong>
         <p>Step-by-step guide for installation.</p>
       </li>
       <li><strong>Verifying Your Python Installation</strong>
         <pre><code>python --version
 </code></pre>
       </li>
-      <li><strong>Installing a Code Editor (VSCode/Atom)</strong>
+      <li><strong>Installing a Code Editor (VSCode)</strong>
         <p>Download and basic configuration.</p>
       </li>
       <li><strong>Setting Up Virtual Environments</strong>
         <p>Creating an isolated environment for your projects.</p>
         <pre><code>python -m venv myenv
-source myenv/bin/activate  # On Windows: myenv\Scripts\activate
+myenv\Scripts\activate    # On Linux/Mac: source myenv/bin/activate  
 </code></pre>
       </li>
     </ul>
     
-    <h3>3. Writing Your First Python Program</h3>
+<h3>3. Writing Your First Python Program</h3>
     <ul>
       <li><strong>Hello World in Python</strong>
         <pre><code>print("Hello, World!")
@@ -63,7 +58,7 @@ source myenv/bin/activate  # On Windows: myenv\Scripts\activate
       </li>
     </ul>
     
-    <h3>4. Understanding Python Syntax &amp; Comments</h3>
+<h3>4. Understanding Python Syntax &amp; Comments</h3>
     <ul>
       <li><strong>Basic Syntax Rules</strong>
         <p>Indentation and code blocks.</p>
@@ -88,7 +83,7 @@ It can span several lines.
       </li>
     </ul>
     
-    <h3>5. Using the Python Interpreter</h3>
+<h3>5. Using the Python Interpreter</h3>
     <ul>
       <li><strong>Interactive Mode vs Script Mode</strong>
         <p>Differences between running code interactively and as a script.</p>
@@ -107,7 +102,7 @@ It can span several lines.
       </li>
     </ul>
     
-    <h3>6. Understanding Data Types</h3>
+<h3>6. Understanding Data Types</h3>
     <ul>
       <li><strong>Introduction to Strings</strong>
         <pre><code>greeting = "Hello, World!"
@@ -133,7 +128,7 @@ print(num_int)
       </li>
     </ul>
     
-    <h3>7. Basic Input and Output</h3>
+<h3>7. Basic Input and Output</h3>
     <ul>
       <li><strong>Using the <code>input()</code> Function</strong>
         <pre><code>name = input("Enter your name: ")
@@ -151,7 +146,7 @@ print(f"You are {age} years old.")
       <li><strong>Simple Data Display Techniques</strong></li>
     </ul>
     
-    <h3>8. Simple Arithmetic and Operators</h3>
+<h3>8. Simple Arithmetic and Operators</h3>
     <ul>
       <li><strong>Addition, Subtraction, Multiplication, Division</strong>
         <pre><code>a = 10
@@ -173,7 +168,7 @@ print(result)
       </li>
     </ul>
     
-    <h3>9. Working with Variables</h3>
+<h3>9. Working with Variables</h3>
     <ul>
       <li><strong>Declaring Variables</strong>
         <pre><code>my_variable = 42
@@ -193,7 +188,7 @@ print(my_variable)
       </li>
     </ul>
     
-    <h3>10. Debugging Your First Program</h3>
+<h3>10. Debugging Your First Program</h3>
     <ul>
       <li><strong>Identifying Common Errors</strong>
         <p>Syntax vs runtime errors.</p>
