@@ -1,18 +1,7 @@
-x = 10
-if x == 10:
-    print("x is 10")
-</code></pre>
-      </li>
-    </ul>
-  </div>
-  <!-- End Module 1 -->
-
-  <!-- Module 2 -->
-  <div class="module" id="module2">
-    <h2>Module 2: Python Data Types &amp; Basic Operations</h2>
+<h2>Module 2: Python Data Types &amp; Basic Operations</h2>
     <p><strong>Introduction:</strong> This module delves into Python’s core data types and operations. Learn about strings, numbers, lists, tuples, dictionaries, and sets. Every topic is explained with clear code examples.</p>
     
-    <h3>1. Strings and Their Operations</h3>
+<h3>1. Strings and Their Operations</h3>
     <ul>
       <li><strong>Declaring and Printing Strings</strong>
         <pre><code>my_string = "Data Science is fun!"
@@ -37,7 +26,7 @@ print(s.upper(), s.capitalize(), s.split())
       </li>
     </ul>
     
-    <h3>2. Numeric Data Types and Operations</h3>
+<h3>2. Numeric Data Types and Operations</h3>
     <ul>
       <li><strong>Integers and Floats</strong>
         <pre><code>a = 10       # Integer
@@ -62,7 +51,7 @@ print(num)
       </li>
     </ul>
     
-    <h3>3. Lists and List Operations</h3>
+<h3>3. Lists and List Operations</h3>
     <ul>
       <li><strong>Creating a List</strong>
         <pre><code>fruits = ["apple", "banana", "cherry"]
@@ -87,7 +76,7 @@ print(fruits)
       </li>
     </ul>
     
-    <h3>4. Tuples and Their Characteristics</h3>
+<h3>4. Tuples and Their Characteristics</h3>
     <ul>
       <li><strong>Creating a Tuple</strong>
         <pre><code>dimensions = (1920, 1080)
@@ -109,7 +98,7 @@ print(a, b)
       </li>
     </ul>
     
-    <h3>5. Dictionaries for Key-Value Mapping</h3>
+<h3>5. Dictionaries for Key-Value Mapping</h3>
     <ul>
       <li><strong>Creating a Dictionary</strong>
         <pre><code>student = {"name": "John", "age": 21}
@@ -133,7 +122,7 @@ print(student)
       </li>
     </ul>
     
-    <h3>6. Sets and Their Uses</h3>
+<h3>6. Sets and Their Uses</h3>
     <ul>
       <li><strong>Creating a Set</strong>
         <pre><code>unique_numbers = {1, 2, 3, 3, 4}
@@ -157,7 +146,7 @@ print(set_a.union(set_b), set_a.intersection(set_b))
       </li>
     </ul>
     
-    <h3>7. Type Conversion among Data Types</h3>
+<h3>7. Type Conversion among Data Types</h3>
     <ul>
       <li><strong>Converting Strings to Lists</strong>
         <pre><code>s = "hello"
@@ -179,7 +168,7 @@ print(t)
       </li>
     </ul>
     
-    <h3>8. Using Built-in Functions</h3>
+<h3>8. Using Built-in Functions</h3>
     <ul>
       <li><strong>Common Functions (len, type, str, int)</strong>
         <pre><code>print(len(fruits), type(fruits))
@@ -203,7 +192,7 @@ print(squared)
       </li>
     </ul>
     
-    <h3>9. Understanding the Importance of Data Types in Data Science</h3>
+<h3>9. Understanding the Importance of Data Types in Data Science</h3>
     <ul>
       <li><strong>How Data is Represented in Code</strong>
         <p>Discussion and examples.</p>
@@ -219,7 +208,7 @@ print(squared)
       </li>
     </ul>
     
-    <h3>10. Review and Practice Exercises</h3>
+<h3>10. Review and Practice Exercises</h3>
     <ul>
       <li><strong>Mini-Project: Creating a Contact Book</strong>
         <p>Using dictionaries, lists, and basic input/output.</p>
