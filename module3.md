@@ -1,4 +1,4 @@
-    <h2>Module 3: Control Structures, Loops &amp; Functions</h2>
+<h2>Module 3: Control Structures, Loops &amp; Functions</h2>
     <p><strong>Introduction:</strong> This module introduces control flow elements such as conditionals, loops, and functions. Learn to make decisions in code, iterate over data, and write reusable functions.</p>
     <h3>1. Conditional Statements (if, elif, else)</h3>
     <ul>
@@ -30,7 +30,7 @@ print(result)
       </li>
     </ul>
     
-    <h3>2. For Loops</h3>
+<h3>2. For Loops</h3>
     <ul>
       <li><strong>Basic For Loop Over a List</strong>
         <pre><code>fruits = ["apple", "banana", "cherry"]
@@ -56,7 +56,7 @@ for fruit in fruits:
       </li>
     </ul>
     
-    <h3>3. While Loops</h3>
+<h3>3. While Loops</h3>
     <ul>
       <li><strong>Basic while Loop Structure</strong>
         <pre><code>count = 0
@@ -84,7 +84,7 @@ else:
       </li>
     </ul>
     
-    <h3>4. Functions: Definition &amp; Invocation</h3>
+<h3>4. Functions: Definition &amp; Invocation</h3>
     <ul>
       <li><strong>Defining a Function with def</strong>
         <pre><code>def greet(name):
@@ -110,7 +110,7 @@ print(add(5, 7))
       </li>
     </ul>
     
-    <h3>5. Understanding Variable Scope in Functions</h3>
+<h3>5. Understanding Variable Scope in Functions</h3>
     <ul>
       <li><strong>Local vs Global Variables</strong>
         <pre><code>global_var = "I am global"
@@ -134,7 +134,7 @@ func()
       </li>
     </ul>
     
-    <h3>6. Lambda Functions and Anonymous Functions</h3>
+<h3>6. Lambda Functions and Anonymous Functions</h3>
     <ul>
       <li><strong>Creating Lambda Functions</strong>
         <pre><code>multiply = lambda x, y: x * y
@@ -155,7 +155,7 @@ print(squared)
       </li>
     </ul>
     
-    <h3>7. Recursion: Functions Calling Themselves</h3>
+<h3>7. Recursion: Functions Calling Themselves</h3>
     <ul>
       <li><strong>Introduction to Recursion</strong>
         <p>Concept explanation with examples.</p>
@@ -177,7 +177,7 @@ print(factorial(5))
       </li>
     </ul>
     
-    <h3>8. Using Functions for Code Reusability</h3>
+<h3>8. Using Functions for Code Reusability</h3>
     <ul>
       <li><strong>Breaking Down a Problem into Functions</strong>
         <p>Example: A mini calculator application.</p>
@@ -208,7 +208,7 @@ print(greet("Bob"))
       </li>
     </ul>
     
-    <h3>9. Error Handling in Functions</h3>
+<h3>9. Error Handling in Functions</h3>
     <ul>
       <li><strong>Using try and except Blocks</strong>
         <pre><code>def safe_divide(a, b):
@@ -240,7 +240,7 @@ finally:
       </li>
     </ul>
     
-    <h3>10. Review and Hands-On Practice</h3>
+<h3>10. Review and Hands-On Practice</h3>
     <ul>
       <li><strong>Mini-Project: Build a Simple Calculator</strong>
         <p>Incorporate conditionals, loops, and functions.</p>
