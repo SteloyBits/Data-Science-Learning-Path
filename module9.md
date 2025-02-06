@@ -1,7 +1,7 @@
 <h2>Module 9: Data Visualization with Python</h2>
     <p><strong>Introduction:</strong> Module 9 covers techniques to visualize data using Matplotlib and Seaborn. Create charts, graphs, and dashboards to communicate insights effectively.</p>
     
-    <h3>1. Introduction to Data Visualization</h3>
+<h3>1. Introduction to Data Visualization</h3>
     <ul>
       <li><strong>Importance of Data Visualization</strong>
         <p>Overview of why visualization matters in Data Science.</p>
@@ -20,7 +20,7 @@
       </li>
     </ul>
     
-    <h3>2. Getting Started with Matplotlib</h3>
+<h3>2. Getting Started with Matplotlib</h3>
     <ul>
       <li><strong>Basic Line Plot</strong>
         <pre><code>import matplotlib.pyplot as plt
@@ -44,7 +44,7 @@ plt.show()
       </li>
     </ul>
     
-    <h3>3. Creating Bar Charts and Histograms</h3>
+<h3>3. Creating Bar Charts and Histograms</h3>
     <ul>
       <li><strong>Bar Chart Example</strong>
         <pre><code>plt.bar(["A", "B", "C"], [10, 15, 7])
@@ -70,7 +70,7 @@ plt.show()
       </li>
     </ul>
     
-    <h3>4. Scatter Plots and Bubble Charts</h3>
+<h3>4. Scatter Plots and Bubble Charts</h3>
     <ul>
       <li><strong>Basic Scatter Plot</strong>
         <pre><code>import numpy as np
@@ -97,7 +97,7 @@ plt.show()
       </li>
     </ul>
     
-    <h3>5. Working with Seaborn for Advanced Visualizations</h3>
+<h3>5. Working with Seaborn for Advanced Visualizations</h3>
     <ul>
       <li><strong>Introduction to Seaborn</strong>
         <pre><code>import seaborn as sns
@@ -118,7 +118,7 @@ plt.show()
       </li>
     </ul>
     
-    <h3>6. Plotting Time Series Data</h3>
+<h3>6. Plotting Time Series Data</h3>
     <ul>
       <li><strong>Line Plot for Time Series Data</strong>
         <pre><code>import pandas as pd
@@ -142,7 +142,7 @@ plt.show()
       </li>
     </ul>
     
-    <h3>7. Subplots and Multi-Plot Figures</h3>
+<h3>7. Subplots and Multi-Plot Figures</h3>
     <ul>
       <li><strong>Creating Multiple Subplots</strong>
         <pre><code>fig, axs = plt.subplots(2, 2, figsize=(10, 8))
@@ -169,7 +169,7 @@ plt.show()
       </li>
     </ul>
     
-    <h3>8. Interactive Visualizations</h3>
+<h3>8. Interactive Visualizations</h3>
     <ul>
       <li><strong>Introduction to Plotly</strong>
         <p>Overview and installation.</p>
@@ -191,7 +191,7 @@ fig.show()
       </li>
     </ul>
     
-    <h3>9. Best Practices in Data Visualization</h3>
+<h3>9. Best Practices in Data Visualization</h3>
     <ul>
       <li><strong>Choosing the Right Chart for Your Data</strong>
         <p>Guidelines and examples.</p>
@@ -207,7 +207,7 @@ fig.show()
       </li>
     </ul>
     
-    <h3>10. Review and Visualizations Project</h3>
+<h3>10. Review and Visualizations Project</h3>
     <ul>
       <li><strong>Mini-Project: Create a Dashboard of Visualizations</strong>
         <pre><code>import pandas as pd
