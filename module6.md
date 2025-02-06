@@ -1,12 +1,10 @@
 <h2>Module 6: Python Standard Libraries &amp; Modules</h2>
     <p><strong>Introduction:</strong> Learn how to use Python’s built-in libraries and modules to extend your code’s capabilities. This module covers topics like file handling, OS interaction, and creating your own modules.</p>
     
-    <h3>1. Understanding Python Modules and Packages</h3>
+<h3>1. Understanding Python Modules and Packages</h3>
     <ul>
       <li><strong>What Are Modules and Packages?</strong>
         <p>Definition and examples.</p>
-        <pre><code># Modules are Python files; packages are directories with __init__.py files.
-</code></pre>
       </li>
       <li><strong>How to Import Modules</strong>
         <pre><code>import math
@@ -23,7 +21,7 @@ print(sqrt(16))
       </li>
     </ul>
     
-    <h3>2. Working with the os Module</h3>
+<h3>2. Working with the os Module</h3>
     <ul>
       <li><strong>Introduction to the os Module</strong>
         <p>Interacting with the operating system.</p>
@@ -46,7 +44,7 @@ os.rmdir("new_folder")
       </li>
     </ul>
     
-    <h3>3. File Handling with the io Module</h3>
+<h3>3. File Handling with the io Module</h3>
     <ul>
       <li><strong>Opening and Reading Files</strong>
         <pre><code>with open("example.txt", "w") as file:
@@ -72,7 +70,7 @@ with open("people.csv", "w", newline="") as file:
       </li>
     </ul>
     
-    <h3>4. Working with the datetime Module</h3>
+<h3>4. Working with the datetime Module</h3>
     <ul>
       <li><strong>Getting the Current Date and Time</strong>
         <pre><code>from datetime import datetime
@@ -95,7 +93,7 @@ print(tomorrow)
       </li>
     </ul>
     
-    <h3>5. Using the random Module</h3>
+<h3>5. Using the random Module</h3>
     <ul>
       <li><strong>Generating Random Numbers</strong>
         <pre><code>import random
@@ -117,7 +115,7 @@ print(options)
       </li>
     </ul>
     
-    <h3>6. Introduction to the re (Regular Expressions) Module</h3>
+<h3>6. Introduction to the re (Regular Expressions) Module</h3>
     <ul>
       <li><strong>What are Regular Expressions?</strong>
         <p>Definition and applications in text processing.</p>
@@ -140,7 +138,7 @@ print(replaced)
       </li>
     </ul>
     
-    <h3>7. Third-Party Libraries and pip</h3>
+<h3>7. Third-Party Libraries and pip</h3>
     <ul>
       <li><strong>What is pip?</strong>
         <p>Introduction to Python’s package installer.</p>
@@ -161,7 +159,7 @@ print(response.status_code)
       </li>
     </ul>
     
-    <h3>8. Exploring the sys Module</h3>
+<h3>8. Exploring the sys Module</h3>
     <ul>
       <li><strong>Accessing Command-Line Arguments</strong>
         <pre><code>import sys
@@ -179,7 +177,7 @@ print(sys.argv)
       </li>
     </ul>
     
-    <h3>9. Building Your Own Modules</h3>
+<h3>9. Building Your Own Modules</h3>
     <ul>
       <li><strong>Creating a Python File as a Module</strong>
         <p>Example: A file named <code>mymodule.py</code> with a simple function.</p>
@@ -201,7 +199,7 @@ print(hello("Student"))
       </li>
     </ul>
     
-    <h3>10. Review and Practical Exercises</h3>
+<h3>10. Review and Practical Exercises</h3>
     <ul>
       <li><strong>Mini-Project: Build a File Organizer Script</strong>
         <pre><code>import os, shutil
