@@ -1,12 +1,10 @@
 <h2>Module 11: Working with the OpenAI API</h2>
     <p><strong>Introduction:</strong> In Module 11, learn how to integrate AI-powered services using the OpenAI API. This module covers account setup, making API calls, and incorporating advanced language models into your projects.</p>
     
-    <h3>1. Introduction to OpenAI API</h3>
+<h3>1. Introduction to OpenAI API</h3>
     <ul>
       <li><strong>What is the OpenAI API?</strong>
         <p>Overview and real-world applications.</p>
-        <pre><code># The OpenAI API provides access to advanced language models.
-</code></pre>
       </li>
       <li><strong>Use Cases in Data Science and AI Applications</strong>
         <p>Examples of how the API is used.</p>
@@ -19,7 +17,7 @@
       </li>
     </ul>
     
-    <h3>2. Setting Up Your OpenAI Account</h3>
+<h3>2. Setting Up Your OpenAI Account</h3>
     <ul>
       <li><strong>Signing Up and Creating an Account</strong>
         <p>Step-by-step guide (with screenshots if available).</p>
@@ -37,7 +35,7 @@ export OPENAI_API_KEY="your_api_key_here"
       </li>
     </ul>
     
-    <h3>3. Making Your First API Call</h3>
+<h3>3. Making Your First API Call</h3>
     <ul>
       <li><strong>Installing the OpenAI Python Library</strong>
         <pre><code>pip install openai
@@ -63,7 +61,7 @@ print(response.choices[0].text.strip())
       </li>
     </ul>
     
-    <h3>4. Customizing API Requests</h3>
+<h3>4. Customizing API Requests</h3>
     <ul>
       <li><strong>Modifying Prompts for Different Tasks</strong>
         <p>Examples: summarization, translation, question answering.</p>
@@ -85,7 +83,7 @@ print(response.choices[0].text.strip())
       </li>
     </ul>
     
-    <h3>5. Integrating the OpenAI API into Applications</h3>
+<h3>5. Integrating the OpenAI API into Applications</h3>
     <ul>
       <li><strong>Building a Command-Line Interface (CLI) Tool</strong>
         <pre><code>def ask_openai(question):
@@ -111,7 +109,7 @@ print(ask_openai(user_question))
       </li>
     </ul>
     
-    <h3>6. Advanced API Usage and Fine-Tuning</h3>
+<h3>6. Advanced API Usage and Fine-Tuning</h3>
     <ul>
       <li><strong>Exploring Additional Endpoints (edits, embeddings)</strong>
         <p>Overview of other API functionalities.</p>
@@ -127,7 +125,7 @@ print(ask_openai(user_question))
       </li>
     </ul>
     
-    <h3>7. Security and Rate Limiting Considerations</h3>
+<h3>7. Security and Rate Limiting Considerations</h3>
     <ul>
       <li><strong>Securing Your API Key</strong>
         <p>Never hard-code your API key; use environment variables.</p>
@@ -143,7 +141,7 @@ print(ask_openai(user_question))
       </li>
     </ul>
     
-    <h3>8. Practical Exercises with OpenAI API</h3>
+<h3>8. Practical Exercises with OpenAI API</h3>
     <ul>
       <li><strong>Task: Build a Text Summarizer</strong>
         <pre><code>def summarize_text(text):
@@ -169,7 +167,7 @@ print(summarize_text(sample_text))
       </li>
     </ul>
     
-    <h3>9. Troubleshooting and Debugging API Calls</h3>
+<h3>9. Troubleshooting and Debugging API Calls</h3>
     <ul>
       <li><strong>Common API Error Codes and Their Meanings</strong>
         <p>Overview of typical errors.</p>
@@ -185,7 +183,7 @@ print(summarize_text(sample_text))
       </li>
     </ul>
     
-    <h3>10. Review and API Integration Project</h3>
+<h3>10. Review and API Integration Project</h3>
     <ul>
       <li><strong>Mini-Project: Develop an AI Assistant App</strong>
         <pre><code>import openai
