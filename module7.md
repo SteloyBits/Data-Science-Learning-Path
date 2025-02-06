@@ -1,7 +1,7 @@
 <h2>Module 7: Introduction to Data Manipulation with NumPy</h2>
     <p><strong>Introduction:</strong> In Module 7, you are introduced to NumPy—the foundational library for numerical computing in Python. Learn array creation, operations, slicing, reshaping, and more.</p>
     
-    <h3>1. Introduction to NumPy and Its Importance</h3>
+<h3>1. Introduction to NumPy and Its Importance</h3>
     <ul>
       <li><strong>What is NumPy?</strong>
         <p>Overview of NumPy’s role in Data Science.</p>
@@ -21,7 +21,7 @@ import numpy as np
       </li>
     </ul>
     
-    <h3>2. Creating Arrays from Lists and Tuples</h3>
+<h3>2. Creating Arrays from Lists and Tuples</h3>
     <ul>
       <li><strong>Using np.array()</strong>
         <pre><code>data = [1, 2, 3, 4]
@@ -43,7 +43,7 @@ print(matrix)
       </li>
     </ul>
     
-    <h3>3. Basic Array Operations</h3>
+<h3>3. Basic Array Operations</h3>
     <ul>
       <li><strong>Element-Wise Arithmetic Operations</strong>
         <pre><code>a = np.array([1, 2, 3])
@@ -64,7 +64,7 @@ print(a + b, a * b)
       </li>
     </ul>
     
-    <h3>4. Array Slicing and Indexing</h3>
+<h3>4. Array Slicing and Indexing</h3>
     <ul>
       <li><strong>One-Dimensional Array Slicing</strong>
         <pre><code>arr = np.array([10, 20, 30, 40, 50])
@@ -85,7 +85,7 @@ print(matrix[1, :])
       </li>
     </ul>
     
-    <h3>5. Reshaping and Transposing Arrays</h3>
+<h3>5. Reshaping and Transposing Arrays</h3>
     <ul>
       <li><strong>Reshaping Arrays with np.reshape()</strong>
         <pre><code>arr = np.arange(12)
@@ -106,7 +106,7 @@ print(reshaped)
       </li>
     </ul>
     
-    <h3>6. Mathematical Operations on Arrays</h3>
+<h3>6. Mathematical Operations on Arrays</h3>
     <ul>
       <li><strong>Aggregate Functions (sum, mean, std)</strong>
         <pre><code>print(np.sum(reshaped), np.mean(reshaped), np.std(reshaped))
@@ -125,7 +125,7 @@ print(reshaped)
       </li>
     </ul>
     
-    <h3>7. Array Manipulations and Data Transformations</h3>
+<h3>7. Array Manipulations and Data Transformations</h3>
     <ul>
       <li><strong>Sorting Arrays</strong>
         <pre><code>arr = np.array([3, 1, 2])
@@ -148,7 +148,7 @@ print(np.concatenate([a, b]))
       </li>
     </ul>
     
-    <h3>8. Working with Random Data</h3>
+<h3>8. Working with Random Data</h3>
     <ul>
       <li><strong>Generating Random Arrays</strong>
         <pre><code>random_arr = np.random.rand(3, 3)
@@ -169,7 +169,7 @@ print(np.random.rand(2, 2))
       </li>
     </ul>
     
-    <h3>9. Performance Benefits of NumPy</h3>
+<h3>9. Performance Benefits of NumPy</h3>
     <ul>
       <li><strong>Vectorized Operations vs. Loops</strong>
         <p>Comparative examples and timings using <code>timeit</code>.</p>
@@ -185,7 +185,7 @@ print(np.random.rand(2, 2))
       </li>
     </ul>
     
-    <h3>10. Review and Practical NumPy Exercises</h3>
+<h3>10. Review and Practical NumPy Exercises</h3>
     <ul>
       <li><strong>Mini-Project: Data Analysis on a Simulated Dataset</strong>
         <pre><code>import numpy as np
