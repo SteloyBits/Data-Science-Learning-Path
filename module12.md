@@ -1,12 +1,10 @@
 <h2>Module 12: Creating End-to-End AI Solutions with DeepSeek AI &amp; Integration</h2>
     <p><strong>Introduction:</strong> In the final module, integrate all the skills learned to create complete AI-powered Data Science solutions. Learn to combine data manipulation, machine learning, and AI APIs (including DeepSeek AI) into cohesive projects.</p>
     
-    <h3>1. Overview of End-to-End AI Solutions</h3>
+<h3>1. Overview of End-to-End AI Solutions</h3>
     <ul>
       <li><strong>Defining End-to-End Workflows</strong>
         <p>From data ingestion to model deployment and UI integration.</p>
-        <pre><code># End-to-end projects combine data processing, modeling, and presentation.
-</code></pre>
       </li>
       <li><strong>Components of an AI Solution</strong>
         <p>Overview of data pipelines, models, and interfaces.</p>
@@ -19,7 +17,7 @@
       </li>
     </ul>
     
-    <h3>2. Introduction to DeepSeek AI</h3>
+<h3>2. Introduction to DeepSeek AI</h3>
     <ul>
       <li><strong>What is DeepSeek AI?</strong>
         <p>Overview of its capabilities for data search and analysis.</p>
@@ -35,7 +33,7 @@
       </li>
     </ul>
     
-    <h3>3. Integrating Data Science Workflows</h3>
+<h3>3. Integrating Data Science Workflows</h3>
     <ul>
       <li><strong>Combining NumPy, Pandas, and Visualization</strong>
         <p>Review and consolidate your data manipulation skills.</p>
@@ -51,7 +49,7 @@
       </li>
     </ul>
     
-    <h3>4. Building a Data Ingestion and Preprocessing Pipeline</h3>
+<h3>4. Building a Data Ingestion and Preprocessing Pipeline</h3>
     <ul>
       <li><strong>Automating Data Loading and Cleaning</strong>
         <pre><code>def load_and_clean_data(file_path):
@@ -74,7 +72,7 @@ print(data.head())
       </li>
     </ul>
     
-    <h3>5. Deploying Machine Learning Models in Production</h3>
+<h3>5. Deploying Machine Learning Models in Production</h3>
     <ul>
       <li><strong>Model Serialization and Saving</strong>
         <pre><code>import joblib
@@ -106,7 +104,7 @@ if __name__ == "__main__":
       </li>
     </ul>
     
-    <h3>6. Integrating DeepSeek AI for Enhanced Search</h3>
+<h3>6. Integrating DeepSeek AI for Enhanced Search</h3>
     <ul>
       <li><strong>Using DeepSeek AI APIs for Data Insights</strong>
         <p>How to query data using DeepSeek AI.</p>
@@ -122,7 +120,7 @@ if __name__ == "__main__":
       </li>
     </ul>
     
-    <h3>7. Creating a User Interface for Your AI Solution</h3>
+<h3>7. Creating a User Interface for Your AI Solution</h3>
     <ul>
       <li><strong>Overview of UI Options (Web, Desktop, CLI)</strong>
         <p>Different approaches to build a user interface.</p>
@@ -144,7 +142,7 @@ st.dataframe(df)
       </li>
     </ul>
     
-    <h3>8. Testing and Validating the End-to-End System</h3>
+<h3>8. Testing and Validating the End-to-End System</h3>
     <ul>
       <li><strong>Unit Testing for Data Pipelines and Models</strong>
         <pre><code>def test_data_loading():
@@ -164,7 +162,7 @@ test_data_loading()
       </li>
     </ul>
     
-    <h3>9. Deploying Your AI Solution to Production</h3>
+<h3>9. Deploying Your AI Solution to Production</h3>
     <ul>
       <li><strong>Deployment Options (Local Servers, Cloud Platforms)</strong>
         <p>Overview of various deployment strategies.</p>
@@ -180,7 +178,7 @@ test_data_loading()
       </li>
     </ul>
     
-    <h3>10. Final Project Review &amp; Future Steps</h3>
+<h3>10. Final Project Review &amp; Future Steps</h3>
     <ul>
       <li><strong>Capstone Project: Develop an End-to-End AI Solution</strong>
         <pre><code># Pseudocode outline:
