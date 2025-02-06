@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Data Science Learning Path for Beginners</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
-    pre { background: #f4f4f4; padding: 10px; overflow-x: auto; }
-    code { background: #f4f4f4; padding: 2px 4px; }
-    h1, h2, h3, h4 { color: #2c3e50; }
-    ul { margin-bottom: 1em; }
-    .module { border: 1px solid #ddd; padding: 15px; margin-bottom: 30px; }
-    .module h2 { background: #ecf0f1; padding: 10px; }
-  </style>
-</head>
-<body>
-
-  <h1>Data Science Learning Path for Beginners</h1>
+<h1>Data Science Learning Path for Beginners</h1>
   <p>This comprehensive 12‑module guide is designed for students with little or no technical background. It starts with basic computer and programming skills and builds up to advanced AI integrations, including use of the OpenAI API and DeepSeek AI. Each module is organized into 10 detailed topics with multiple subtopics and code examples.</p>
 
   <!-- Module 1 -->
@@ -23,7 +6,7 @@
     <h2>Module 1: Getting Started with Computers &amp; Python</h2>
     <p><strong>Introduction:</strong> In Module 1, we introduce basic computer concepts, how to install Python, and run your first Python program. This module is ideal even if you have only just begun using a computer.</p>
     
-    <h3>1. Understanding Computers and Operating Systems</h3>
+    <h3> 1. Understanding Computers and Operating Systems</h3>
     <ul>
       <li><strong>What is a Computer?</strong>
         <p>Explanation of hardware and software concepts.</p>
