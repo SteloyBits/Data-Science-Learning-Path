@@ -1,7 +1,7 @@
 <h2>Module 8: Data Analysis with Pandas</h2>
     <p><strong>Introduction:</strong> This module introduces Pandas for data manipulation and analysis. Learn to work with DataFrames, clean data, perform aggregations, and visualize data.</p>
     
-    <h3>1. Introduction to Pandas and DataFrames</h3>
+<h3>1. Introduction to Pandas and DataFrames</h3>
     <ul>
       <li><strong>What is Pandas?</strong>
         <p>Overview of its role in data analysis.</p>
@@ -24,7 +24,7 @@ print(df)
       </li>
     </ul>
     
-    <h3>2. Reading and Writing Data Files</h3>
+<h3>2. Reading and Writing Data Files</h3>
     <ul>
       <li><strong>Loading CSV Files</strong>
         <pre><code>df = pd.read_csv("data.csv")
@@ -44,7 +44,7 @@ print(df.head())
       </li>
     </ul>
     
-    <h3>3. Exploring and Inspecting Data</h3>
+<h3>3. Exploring and Inspecting Data</h3>
     <ul>
       <li><strong>DataFrame Attributes: shape, dtypes, info()</strong>
         <pre><code>print(df.shape)
@@ -66,7 +66,7 @@ print(df.iloc[0])
       </li>
     </ul>
     
-    <h3>4. Data Cleaning and Handling Missing Values</h3>
+<h3>4. Data Cleaning and Handling Missing Values</h3>
     <ul>
       <li><strong>Identifying Missing Data</strong>
         <pre><code>print(df.isnull().sum())
@@ -85,7 +85,7 @@ print(df.iloc[0])
       </li>
     </ul>
     
-    <h3>5. Data Transformation and Aggregation</h3>
+<h3>5. Data Transformation and Aggregation</h3>
     <ul>
       <li><strong>Using apply() to Transform Data</strong>
         <pre><code>df["Name"] = df["Name"].apply(lambda x: x.upper())
@@ -109,7 +109,7 @@ print(merged)
       </li>
     </ul>
     
-    <h3>6. Data Visualization Basics with Pandas</h3>
+<h3>6. Data Visualization Basics with Pandas</h3>
     <ul>
       <li><strong>Plotting with the DataFrame.plot() Method</strong>
         <pre><code>df["Age"].plot(kind="bar")
@@ -131,7 +131,7 @@ plt.show()
       </li>
     </ul>
     
-    <h3>7. Time Series Data Handling</h3>
+<h3>7. Time Series Data Handling</h3>
     <ul>
       <li><strong>Parsing Dates During Data Import</strong>
         <pre><code>df = pd.read_csv("timeseries.csv", parse_dates=["date"])
@@ -151,7 +151,7 @@ print(weekly)
       </li>
     </ul>
     
-    <h3>8. Advanced Data Manipulation Techniques</h3>
+<h3>8. Advanced Data Manipulation Techniques</h3>
     <ul>
       <li><strong>Using lambda and map for Column Operations</strong>
         <pre><code>df["Age_plus_5"] = df["Age"].map(lambda x: x + 5)
@@ -171,7 +171,7 @@ print(result)
       </li>
     </ul>
     
-    <h3>9. Optimizing Pandas Performance</h3>
+<h3>9. Optimizing Pandas Performance</h3>
     <ul>
       <li><strong>Understanding Vectorized Operations</strong>
         <p>Comparing loops vs. vectorized solutions.</p>
@@ -187,7 +187,7 @@ print(result)
       </li>
     </ul>
     
-    <h3>10. Review and Practical Pandas Project</h3>
+<h3>10. Review and Practical Pandas Project</h3>
     <ul>
       <li><strong>Mini-Project: Exploratory Data Analysis on a Public Dataset</strong>
         <pre><code>import pandas as pd
