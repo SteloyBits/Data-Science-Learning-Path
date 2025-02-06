@@ -1,7 +1,7 @@
 <h2>Module 10: Introduction to Machine Learning Concepts</h2>
     <p><strong>Introduction:</strong> This module introduces basic machine learning concepts and terminology. Learn about supervised and unsupervised learning, model training, evaluation metrics, and more to build the foundation for future AI projects.</p>
     
-    <h3>1. Overview of Machine Learning</h3>
+<h3>1. Overview of Machine Learning</h3>
     <ul>
       <li><strong>What is Machine Learning?</strong>
         <p>Definition and examples.</p>
@@ -19,7 +19,7 @@
       </li>
     </ul>
     
-    <h3>2. Understanding Data and Feature Engineering</h3>
+<h3>2. Understanding Data and Feature Engineering</h3>
     <ul>
       <li><strong>Role of Data in Machine Learning</strong>
         <p>The importance of quality data.</p>
@@ -35,7 +35,7 @@
       </li>
     </ul>
     
-    <h3>3. Supervised Learning Fundamentals</h3>
+<h3>3. Supervised Learning Fundamentals</h3>
     <ul>
       <li><strong>Definition and Examples</strong>
         <p>Regression and classification tasks.</p>
@@ -57,7 +57,7 @@ print(model.predict([[4]]))
       </li>
     </ul>
     
-    <h3>4. Unsupervised Learning Fundamentals</h3>
+<h3>4. Unsupervised Learning Fundamentals</h3>
     <ul>
       <li><strong>Definition and Examples</strong>
         <p>Clustering and dimensionality reduction.</p>
@@ -78,7 +78,7 @@ print(kmeans.labels_)
       </li>
     </ul>
     
-    <h3>5. Model Training and Evaluation</h3>
+<h3>5. Model Training and Evaluation</h3>
     <ul>
       <li><strong>Splitting Data into Training and Test Sets</strong>
         <pre><code>from sklearn.model_selection import train_test_split
@@ -96,7 +96,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
       </li>
     </ul>
     
-    <h3>6. Introduction to Classification Tasks</h3>
+<h3>6. Introduction to Classification Tasks</h3>
     <ul>
       <li><strong>Binary vs. Multi-class Classification</strong>
         <p>Different types of classification problems.</p>
@@ -117,7 +117,7 @@ print(model.predict([[2.5]]))
       </li>
     </ul>
     
-    <h3>7. Overfitting, Underfitting, and Model Tuning</h3>
+<h3>7. Overfitting, Underfitting, and Model Tuning</h3>
     <ul>
       <li><strong>Understanding Overfitting vs. Underfitting</strong>
         <p>Visual examples and discussion.</p>
@@ -133,7 +133,7 @@ print(model.predict([[2.5]]))
       </li>
     </ul>
     
-    <h3>8. Introduction to Evaluation Metrics</h3>
+<h3>8. Introduction to Evaluation Metrics</h3>
     <ul>
       <li><strong>Regression Metrics: MSE, MAE, R²</strong>
         <pre><code>from sklearn.metrics import mean_squared_error
@@ -152,7 +152,7 @@ print(mse)
       </li>
     </ul>
     
-    <h3>9. Introduction to Model Deployment Concepts</h3>
+<h3>9. Introduction to Model Deployment Concepts</h3>
     <ul>
       <li><strong>From Training to Production</strong>
         <p>Concepts on deploying machine learning models.</p>
@@ -171,7 +171,7 @@ model_loaded = joblib.load("model.pkl")
       </li>
     </ul>
     
-    <h3>10. Review and Mini Machine Learning Project</h3>
+<h3>10. Review and Mini Machine Learning Project</h3>
     <ul>
       <li><strong>Mini-Project: Build a Simple Model</strong>
         <pre><code>import pandas as pd
